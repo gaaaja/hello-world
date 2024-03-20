@@ -4,13 +4,15 @@ This Flask application simplifies the process of shortening URLs by offering an 
 
 ## Installation 
 
-1- Navigate to project directory 
- - open a terminal window and move into the project directory. 
+1. Navigate to Project Directory:
+    - Open a terminal window and move into the project directory.
 
-2- Install the required modules : pip install Flask
+2. Install the Required Modules:
+    - Run `pip install Flask` to install the required modules.
 
-3- Run the application :
- - Execute "python app.py" to start the Flask application .
+3. Run the Application:
+    - Execute `python app.py` to start the Flask application.
+
 
 
 ## Usage 
