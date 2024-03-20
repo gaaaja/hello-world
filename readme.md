@@ -14,8 +14,8 @@ This Flask application simplifies the process of shortening URLs by offering an 
 
 
 ## Usage 
-1- Run the Flask application : use this command "python app.py".
-2- The application will run on "http://localhost:5000"
+1- Run the Flask application : use this command "python app.py".**
+2- The application will run on "http://localhost:5000"**
 3- Use Postman or any other HTTP client to interact with the API
 
 ## Endpoints 
