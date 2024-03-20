@@ -1,4 +1,4 @@
-# URL Shortening Service 
+## URL Shortening Service 
 
 This Flask application simplifies the process of shortening URLs by offering an API endpoint for transforming lengthy URLs into shorter versions. Additionally, it seamlessly redirects these shortened URLs back to their original.
 
