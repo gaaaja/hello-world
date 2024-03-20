@@ -24,16 +24,19 @@ This Flask application simplifies the process of shortening URLs by offering an 
 
 
 ## Endpoints 
-1 - Shorten URL 
 
-Formulate a POST request directed to the /shorten endpoint, including within its JSON payload the URL you wish to shorten. Afterwards, validate the response received to ensure it includes a newly generated shortcode(201)
+1. **Shorten URL**
 
-json
-{
-    "url": "YOUR_LONG_URL",
-    "shortcode": "YOUR_CUSTOM_SHORTCODE" (optional)
-}
+    Formulate a POST request directed to the `/shorten` endpoint, including within its JSON payload the URL you wish to shorten. Afterwards, validate the response received to ensure it includes a newly generated shortcode.
 
-2 - Redirect to long URL endpoint
+    ```json
+    {
+        "url": "YOUR_LONG_URL",
+        "shortcode": "YOUR_CUSTOM_SHORTCODE" (optional)
+    }
+    ```
 
-Upon accessing the URL endpoint /shortcodes, implemented with the GET method, the service checks for the existence of the provided shortcode. If the shortcode is found within the system, the client is seamlessly redirected to the corresponding original long URL associated with the shortcode.
+2. **Redirect to Long URL Endpoint**
+
+    Upon accessing the URL endpoint `/shortcodes`, implemented with the GET method, the service checks for the existence of the provided shortcode. If the shortcode is found within the system, the client is seamlessly redirected to the corresponding original long URL associated with the shortcode.
+
